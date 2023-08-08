@@ -1,0 +1,54 @@
+.grid {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.square {
+  border: solid 1px black;
+  height: 150px;
+  font-size: 5rem;
+}
+.square:hover {
+  background-color: rgba(0, 0, 0, 0.534);
+}
+.square_o {
+  background-color: rgb(87, 218, 21);
+}
+
+.square_x {
+  background-color: crimson;
+}
+.button-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset {
+  margin-top: 3rem;
+  width: 10rem;
+  height: 4rem;
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: x-large;
+  font-family: serif;
+  letter-spacing: 3px;
+}
+.reset:hover {
+  border-radius: 0rem;
+  font-size: x-large;
+  letter-spacing: 4px;
+  width: 10.5rem;
+  height: 4.5rem;
+  color: black;
+  background-color: white;
+}
+p {
+  font-size: 2rem;
+}
+.turn {
+  text-align: center;
+}
